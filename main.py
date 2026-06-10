@@ -1,8 +1,8 @@
-print("lista de alunos aprovados/reprovados\n")
+print("lista de alunos reprovados/aprovados\n")
 
 
 def se (condicao, valor_se_falso, valor_se_verdadeiro):
-    return(valor_se_verdadeiro if condicao else valor_se_falso)
+    return(valor_se_falso if condicao else valor_se_verdadeiro)
 alunos = [
     ("Adriano", 40),
     ("Adriana", 60),
